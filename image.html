@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Image Search</title>
+        <style>
+            body {
+                font-size: 15px;
+                font-family: 'Courier New', Courier, monospace;
+                color: blue;
+            }
+
+            #form {
+                background-color: rgb(146, 146, 146);
+                width: 200px;
+            }
+            #link1 {
+                position: absolute;
+                left: 1100px;
+                top: 5px;
+            }
+            #link2 {
+                position: absolute;
+                left: 1100px;
+                top: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <form action="https://www.google.com/search" id="form">
+            <input type="text" name="q" id="box">
+            <input type="hidden" name="tbm" value="isch">
+            <input type="submit" value="Image Search" >
+          </form>
+        <a href="file:///Users/GruntingRhino/myProject/CS50W/project0/index.html" id="link1">Google Search</a>
+        <a href="file:///Users/GruntingRhino/myProject/CS50W/project0/advanced.html" id="link2">Advanced Search</a>
+    </body>
+</html>
